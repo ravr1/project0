@@ -1,0 +1,51 @@
+#zona2{
+    background-color: rgb(252, 123, 17);
+    padding: 10px;
+}
+
+.tit{
+    font-family: serif,Arial, Helvetica, sans-serif;
+    color: rgb(0, 0, 0);
+    font-size: 25px;
+}
+
+.texto {
+    margin: 25px;
+}
+
+.data{
+    margin-left: 50px;
+}
+
+tr th{
+    padding: 10px;
+    font-size: 15px;
+    font-family: serif;
+}
+
+tr td{
+    padding: 10px;
+    font-size: 14px;
+}
+
+.data tr th{
+    padding-right: 1px;
+    margin-left: 10px;
+    text-align: end;
+ 
+}
+
+
+
+.edu{
+    margin-left: 10px;
+}
+
+.edu tr th{
+   
+    padding-right: 10px;
+    margin-left: 10px;
+    border-right: 1px solid black;
+    text-align: end;
+}
+

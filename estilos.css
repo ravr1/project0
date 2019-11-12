@@ -1,0 +1,158 @@
+
+/*Genera imagen solida de fondo*/
+/* body{
+    background-image: url(imagenes/fondo3.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+} */
+
+/*estilo del cuerpo general (lateral y principal) */
+
+
+
+@media screen and (max-width: 500px) {
+    body{
+        font: 10pt;
+        background-color:rgb(102, 1, 1);
+      
+    }
+    #principal{
+        margin-bottom: 20px;
+        margin-left: 20%;
+    }
+
+    #lateral{
+        width: 100%;
+        background-color: rgb(77, 76, 76);
+        float:left; 
+        padding: 10px;
+    }
+
+
+    
+    #lateral img {
+     margin-left: 20%;
+    }
+
+
+    
+}
+
+@media screen and (min-width: 500px) {
+    body{
+        font: 10pt;
+        background-color:rgb(49, 46, 46) ;
+      
+    }
+    #principal{
+        margin-left: 280px;
+        margin-bottom: 20px;
+    }
+
+    #lateral{
+        width: 250px;
+        background-color: rgb(77, 76, 76);
+        float:left; 
+        padding: 10px;
+        text-align: center;
+        align-content: center;
+        
+    } 
+    
+}
+
+#body-container{
+    
+    text-align: left;
+    width: 700px;
+    margin: auto;
+}
+
+
+
+#lateral p{
+    margin-top: 10px;
+    text-align: center;
+    font-size: 15px;  
+}
+
+h4{
+    margin-top: 13px;
+    text-align: center;
+}
+
+/*--------------------*/
+
+/*contenedor lateral*/
+
+#lat-container div{
+    background-color: rgb(255, 255, 255);
+    font-size: 15px;
+    margin: 10px;
+    border-radius: 3px;
+    margin-top: 10px;
+    padding: 1px;
+
+    
+}
+
+#lat-container div p{
+    font-family: monospace;
+    font-size: 12.5pt;
+    text-align: left;
+    color: rgb(180, 31, 31);
+    margin-left: 10px;
+    margin-top: 5px;
+}
+
+#lat-container div p2{
+    font-family: monospace;
+    font-size: 12pt;
+    text-align: left;
+    color: black;
+}
+
+
+/*pone recuadros en el principal*/
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.col img {
+    scroll-margin-left: 10px;
+}
+
+.container > div {
+    background-color: rgb(255, 255, 255);
+    font-size: 20px;
+    margin: 5px;
+    
+    width: 230px;
+    border-radius: 2%;
+    margin-top: 30px;
+   
+}
+
+.container div img {
+    width: 200px;
+    margin-top: 10px;
+    
+}
+
+.container div img:hover{
+    transform: scale(0.98);
+    border-radius: 5%;
+}
+
+img{
+    transition: all 0.2s ease;
+}
+
+
+
+
